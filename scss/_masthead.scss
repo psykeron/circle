@@ -23,8 +23,11 @@ header.masthead {
         max-width: 325px;
         margin-right: auto;
         margin-left: auto;
-        .screen img {
+        .screen {
+            background-color: white;
+            img {
             border-radius: 3px;
+            }
         }
     }
     @media (min-width: 992px) {
